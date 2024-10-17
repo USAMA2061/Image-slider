@@ -1,0 +1,36 @@
+.top{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    
+.style-button {
+    margin-top: 150px;
+    margin-left: 100px;
+    padding: 10px 40px 10px;
+    background-color: #453252; 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    /* margin: 5px; */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; 
+    font-size: 16px;
+}
+
+.style-button:hover {
+    background-color: #9e6391;
+    transform: scale(1.05); 
+}
